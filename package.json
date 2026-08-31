@@ -1,0 +1,13 @@
+{
+  "name": "kilawatt",
+  "version": "0.1.0",
+  "description": "Official JavaScript/TypeScript SDK for Kilawatt Cloud GPU Orchestration Platform",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": ["gpu", "ai", "kilawatt", "mcp", "cuda", "infrastructure"],
+  "author": "Kilawatt Cloud",
+  "license": "MIT"
+}
