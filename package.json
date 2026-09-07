@@ -1,13 +1,35 @@
 {
-  "name": "kilawatt",
+  "name": "kilawatt-js",
   "version": "0.1.0",
-  "description": "Official JavaScript/TypeScript SDK for Kilawatt Cloud GPU Orchestration Platform",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "node index.js"
-  },
-  "keywords": ["gpu", "ai", "kilawatt", "mcp", "cuda", "infrastructure"],
+  "description": "Official Node.js/TypeScript client for the Kilawatt Cloud GPU compute API.",
+  "license": "MIT",
   "author": "Kilawatt Cloud",
-  "license": "MIT"
+  "homepage": "https://www.kilawattcloud.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KilaWattCloud/kilawatt-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KilaWattCloud/kilawatt-js/issues"
+  },
+  "keywords": ["kilawatt", "gpu", "h100", "b200", "inference", "fine-tuning"],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
 }
