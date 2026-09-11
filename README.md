@@ -1,5 +1,9 @@
 # kilawatt-js
 
+[![Build Status](https://github.com/KilaWattCloud/kilawatt-js/workflows/Test/badge.svg)](https://github.com/KilaWattCloud/kilawatt-js/actions)
+[![Version](https://img.shields.io/github/v/release/KilaWattCloud/kilawatt-js)](https://github.com/KilaWattCloud/kilawatt-js/releases)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 Official Node.js / TypeScript client for the [Kilawatt Cloud](https://www.kilawattcloud.dev) GPU compute API.
 
 Wraps the three live workload endpoints: agent execution, fine-tuning and batch inference. Nothing else — no stubs, no unreleased methods.
